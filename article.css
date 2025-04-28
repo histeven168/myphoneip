@@ -1,0 +1,80 @@
+		.article {
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .article h1, .article h2, .article h3 {
+            color: #333333;
+            margin: 20px 0 10px;
+            font-weight: 600;
+        }
+        .article h1 {
+            font-size: 24px;
+            text-align: center;
+			margin-top:0;
+        }
+        .article h2 {
+            font-size: 20px;
+			text-align:left;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 5px;
+        }
+        .article p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .article ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .article li {
+            margin: 5px 0;
+        }
+        .article .section {
+            margin-bottom: 30px;
+        }
+        .article .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .article .contact a {
+            color: #333333;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .article .contact a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 800px) {
+            .article .container {
+                padding: 15px;
+            }
+            .article h1 {
+                font-size: 22px;
+            }
+            .article h2 {
+                font-size: 18px;
+            }
+            .article p, .article ul {
+                font-size: 14px;
+            }
+        }
+		
+		.article .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .article .contact-info a {
+            display: block;
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333333;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .article .contact-info a:hover {
+            text-decoration: underline;
+        }
